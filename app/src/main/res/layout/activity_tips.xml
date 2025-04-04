@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -19,20 +20,40 @@
             android:textStyle="normal"
             android:textAlignment="center"/>
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Staying hydrated is one of the simplest and most effective ways to maintain good health. Water plays a vital role in nearly every bodily function — from regulating temperature to flushing out toxins and aiding digestion. \n\nAim to drink at least 8 glasses of water a day, and more if you're active or live in a hot climate. Even mild dehydration can cause fatigue, headaches, and reduced concentration."
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        card_view:cardCornerRadius="12dp"
+        card_view:cardElevation="6dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Staying hydrated is one of the simplest and most effective ways to maintain good health. Water plays a vital role in nearly every bodily function — from regulating temperature to flushing out toxins and aiding digestion. \n\nAim to drink at least 8 glasses of water a day, and more if you're active or live in a hot climate. Even mild dehydration can cause fatigue, headaches, and reduced concentration."
-            android:textStyle="normal"
-            android:textSize="14sp"
-            android:textColor="#3F51B5"
-            android:id="@+id/texttip1"/>
+            android:padding="16dp"
+            android:text="A balanced diet is key to long-term wellness. Focus on incorporating a variety of whole foods like fruits, vegetables, whole grains, lean proteins, and healthy fats. \n\nAvoid processed foods that are high in sugar, salt, and unhealthy oils. Eating mindfully and in moderation helps support weight management, heart health, and energy levels throughout the day."
+            android:textSize="16sp"
+            android:textColor="#000000" />
+    </androidx.cardview.widget.CardView>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Listen"
-            android:id="@+id/buttontip1"/>
 
-    </LinearLayout>
+
+
+</LinearLayout>
