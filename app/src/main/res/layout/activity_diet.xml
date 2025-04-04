@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <!-- TextView Section -->
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HEALTHY DIETS"
+            android:textColor="#FF9800"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:textStyle="normal"
+            android:textAlignment="center"/>
+
+        <!--  Food 1        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food1"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"/>
+
+        <!--  Food 2        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food2"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"/>
+
+        <!--  Food 3        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food3"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"/>
+
+        <!--  Food 4        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food4"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"/>
+
+        <!--  Food 5        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food5"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"
+            />
+
+        <!--  Food 6        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food6"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"/>
+
+        <!--  Food 7        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food7"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"/>
+
+        <!--  Food 8        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/food8"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"/>
+
+
+        <!--  Food 9        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food9"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a nice Food for your good health, eat this food once a week"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"/>
+
+    </LinearLayout>
+
+</ScrollView>

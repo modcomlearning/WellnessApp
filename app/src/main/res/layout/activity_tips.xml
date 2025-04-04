@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+        <!-- TextView Section -->
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HEALTHY TIPS"
+            android:textColor="#FF9800"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:textStyle="normal"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Staying hydrated is one of the simplest and most effective ways to maintain good health. Water plays a vital role in nearly every bodily function — from regulating temperature to flushing out toxins and aiding digestion. \n\nAim to drink at least 8 glasses of water a day, and more if you're active or live in a hot climate. Even mild dehydration can cause fatigue, headaches, and reduced concentration."
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"
+            android:id="@+id/texttip1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listen"
+            android:id="@+id/buttontip1"/>
+
+    </LinearLayout>
